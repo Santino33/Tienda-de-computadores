@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Programacion 1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Comceptos_iniciales.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Aprendiendo_UML_en_24_horas.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
