@@ -3,6 +3,8 @@ package view;
 import javax.swing.*;
 
 public class view {
+    public view() {
+    }
 
     public int readInt(String message) {
         int number = Integer.parseInt(JOptionPane.showInputDialog(message));
@@ -19,8 +21,9 @@ public class view {
     }
 
     public boolean readBoolean(String message) {
+        boolean a = false;
         try {
-            boolean a = Boolean.parseBoolean((JOptionPane.showInputDialog(message)));
+            a = Boolean.parseBoolean((JOptionPane.showInputDialog(message)));
         }catch(Exception e){
             System.out.println("Error, inserte un valor valido");
         }

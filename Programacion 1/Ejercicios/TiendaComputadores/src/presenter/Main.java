@@ -12,6 +12,7 @@ public class Main {
 
     public static void menu (){
         viewTest = new view();
+        modelTest = new model();
         viewTest.showMessage("Ahora puedes tener toda la informacion de \n" +
                 " tu tienda de computadores en un solo lugar\n Luego de darle OK digita la opcion que desees consultar");
         int option = viewTest.readInt("1.Agregar un nuevo computador\n" +
@@ -21,7 +22,7 @@ public class Main {
                 "5. Salir\n Selecciona una opcion para continuar");
 
         switch (option){
-            case 1:
+            case 1: modelTest.agregarComputador();
                 break;
             case 2:
                 break;
